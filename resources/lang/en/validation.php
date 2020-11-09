@@ -130,9 +130,87 @@ return [
     */
 
     'custom' => [
-        'attribute-name' => [
-            'rule-name' => 'custom-message',
+        'title' => [
+            'required' => 'Campo obbligatorio',
+            'min' => 'Deve essere almeno 5 caratteri',
+            'max' => 'Non può essere maggiore di 80 caratteri',
         ],
+        'description' => [
+            'required' => 'Campo obbligatorio',
+            'min' => 'Deve essere almeno 5 caratteri',
+            'max' => 'Non può essere maggiore di 255 caratteri',
+        ],
+        'photo_url' => [
+            'required' => 'Campo obbligatorio',
+            'image' => 'Deve essere una\' immagine',
+            'mimes' => 'Estensione non supportate (solo jpg, jpeg, png, webp)'
+        ],
+
+        'price_at_night' => [
+            'required' => 'Campo obbligatorio',
+            'gte' => 'Il prezzo deve essere maggiore di €1,00',
+            'integer' => 'Devi inserire un numero.'
+        ],
+        'mq' => [
+            'required' => 'Campo obbligatorio',
+            'gte' => 'I mq² devono essere maggiori di 5',
+            'integer' => 'Devi inserire un numero.'
+        ],
+
+        'street' => [
+            'required' => 'Campo obbligatorio',
+            'min' => 'Deve essere almeno 5 caratteri',
+            'max' => 'Non può essere maggiore di 80 caratteri',
+        ],
+
+        'street_number' => [
+            'required' => 'Campo obbligatorio',
+            'regex' => 'Deve contenere almeno un numero'
+        ],
+
+        'city' => [
+            'required' => 'Campo obbligatorio',
+            'max' => 'Non può essere maggiore di 80 caratteri',
+        ],
+
+        'region' => [
+            'required' => 'Campo obbligatorio',
+            'max' => 'Non può essere maggiore di 80 caratteri',
+        ],
+
+        'state' => [
+            'required' => 'Campo obbligatorio',
+            'min' => 'Deve essere almeno 1 caratteri',
+            'max' => 'Non può essere maggiore di 80 caratteri',
+        ],
+        'sponsor' => [
+            'required' => 'Scegli almeno un\'opzione'
+        ],
+
+        'name' => [
+            'required' => 'Campo obbligatorio',
+            'min' => 'Deve essere almeno 2 caratteri',
+            'max' => 'Non può essere maggiore di 40 caratteri',
+                                                                
+        ],
+        'email' => [
+            'required' => 'Campo obbligatorio',
+            'email' => 'Devi inserire un\'email valida',
+            'max' => 'Non può essere maggiore di 255 caratteri',
+            'regex' => 'Devi inserire un punto!!!!'
+        ],
+        'subject' => [
+            'required' => 'Campo obbligatorio',
+            'min' => 'Deve essere almeno 2 caratteri',
+            'max' => 'Non può essere maggiore di 40 caratteri',
+            
+        ],
+        'message' => [
+            'required' => 'Campo obbligatorio',
+            'min' => 'Deve essere almeno 2 caratteri',
+            'max' => 'Non può essere maggiore di 255 caratteri',
+        ],
+
     ],
 
     /*
