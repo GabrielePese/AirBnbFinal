@@ -22,3 +22,7 @@ Un applicazione per trovare e gestire l’affitto di appartamenti, attraverso fi
 
 
 ---
+
+**Anterprima**
+
+Di seguito potete veder un'anteprima del funzionamento del sito.
