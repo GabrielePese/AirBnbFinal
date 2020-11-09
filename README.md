@@ -1,61 +1,142 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+#   AIRBNBFINAL
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
 
-## About Laravel
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+> 
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+> ##### *:open_file_folder:   AirBnbFinal- Una mia riproduzione del famoso AirBnb  :open_file_folder:*
 
-## Learning Laravel
+>
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+> 
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+---
 
-## Laravel Sponsors
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
 
-### Premium Partners
+****Introduzione:**** 
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[OP.GG](https://op.gg)**
+Un applicazione per trovare e gestire l’affitto di appartamenti, attraverso filtri su servizi, posizione geografica o specifiche preferenze.
 
-## Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+---
 
-## Code of Conduct
+### :spiral_notepad: Fase Progettuale:
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+> Mockup & Workflow realizzato utilizzando Sketch & InVisionApp:
 
-## Security Vulnerabilities
+![](public/images/Airbnb_Logo_Bélo.svg.png)
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+### :arrow_forward: Anteprima Pagine Web:
 
-## License
+>  Preview Desktop :desktop_computer: 
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+![](public/images/desktop.gif)
+
+>  Preview Mobile :iphone: 
+
+![](public/images/mobileGif.gif)
+
+---
+
+## :key: Istruzioni:
+
+> ## 1. Download Db Example:
+https://drive.google.com/file/d/1BnsiPauEdYDpdEyyz0zNrAWCgD3MJAuj/view?usp=sharing
+
+> ## 2. Compilare le seguenti key nel file .env:
+
+> Database Setup (Progetto realizzato in MySql)
+
+1. `DB_CONNECTION`
+2. `DB_HOST`
+3. `DB_DATABASE`
+2. `DB_USERNAME`
+3. `DB_PASSWORD`
+
+> Braintree (pagamenti)
+
+1. `BT_MERCHANT_ID`
+2. `BT_PUBLIC_KEY`
+3. `BT_PRIVATE_KEY`
+
+> Algolia (Autocomplete, Map, GeoSearch)
+
+1. `PLACES_APP_ID`
+2. `PLACES_API_KEY`
+3. `ALGOLIA_APP_ID`
+4. `ALGOLIA_SECRET`
+5. `SCOUT_QUEUE`
+
+> Eseguire i seguenti comandi per visionare il progetto:
+
+* `npm install`
+* `composer install`
+* `php artisan storage:link`
+* `npm run watch & php artisan serve`
+
+
+### :computer: Linguaggi e Tecnologie utilizzate:
+
+
+* HTML
+
+
+* CSS
+
+
+* SASS
+
+
+* Bootstrap
+
+
+* JS
+
+
+* jQuery
+
+
+* Chart Js
+
+
+* Leaflet Js
+
+
+* Algolia (Places/Scout/Autocomplete/Instasearch Js)
+
+
+* Braintree
+
+
+* Ajax
+
+
+* Handlebars
+
+
+* MySql
+
+
+* PHP
+
+
+* Laravel
+
+
+* Carbon
+
+
+## Team Di Sviluppo Composto da: ##
+
+> ##### 	https://github.com/AndreaDeMartino :technologist:	
+
+> #####	    https://github.com/flavio-pinto :technologist:	
+
+> ##### 	https://github.com/fabiogadau :technologist:	
+
+> ##### 	https://github.com/francescoscarniglia :technologist:	
+
+> ##### 	https://github.com/SalvatoreLauriola :technologist:	
