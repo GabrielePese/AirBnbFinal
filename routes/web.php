@@ -33,3 +33,5 @@ Route::post('/editFlat/{id}', 'UserController@editFlat')->name('editFlat');
 Route::get('/stats/{id}', 'UserController@showStats')->name('showStats');
 Route::get('/storePhoto/{id}', 'UserController@photo')->name('photo');
 Route::post('/storePhoto/{id}', 'UserController@storePhoto')->name('storePhoto');
+
+// prova
