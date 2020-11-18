@@ -158,7 +158,7 @@ function sendRequestSearch() {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\Gabriele\Desktop\bool\resources\js\sort.js */"./resources/js/sort.js");
+module.exports = __webpack_require__(/*! C:\Users\Gabriele\Desktop\Boolean\AirBnbFinal\resources\js\sort.js */"./resources/js/sort.js");
 
 
 /***/ })

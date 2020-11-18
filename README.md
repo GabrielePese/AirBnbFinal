@@ -25,6 +25,6 @@ Un applicazione per trovare e gestire l’affitto di appartamenti, attraverso fi
 
 **Anterprima**
 
-Di seguito potete veder un'anteprima del funzionamento del sito.
+Di seguito potete veder la rappresentazione del database.
 
-![](public/img/Airbnb_Logo_Bélo.svg.png)
+![](public/img/db.png)
