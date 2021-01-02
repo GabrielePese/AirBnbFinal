@@ -28,3 +28,5 @@ Un applicazione per trovare e gestire l’affitto di appartamenti, attraverso fi
 Di seguito potete veder la rappresentazione del database.
 
 ![](public/img/db.png)
+
+![](public/img/airBnbGif.gif)
