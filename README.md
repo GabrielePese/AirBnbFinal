@@ -1,4 +1,4 @@
-#   AIRBNBFINAL
+<!-- #   AIRBNBFINAL
 
 
 
@@ -87,4 +87,8 @@ Il database del progetto:
 * Laravel
 
 
-* Carbon
+* Carbon -->
+
+
+
+![](public/images/mobilegif.gif)
