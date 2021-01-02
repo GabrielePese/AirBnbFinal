@@ -91,4 +91,4 @@ Il database del progetto:
 
 
 
-![](public/images/mobilegif.gif)
+![](public/images/mobile.gif)
