@@ -39,7 +39,7 @@ Il database del progetto:
 ### :arrow_forward: Anteprima Pagine Mobile:
 >  Preview Mobile :iphone: 
 
-![](public/img/mobilegif.gif)
+![](public/images/mobilegif.gif)
 
 ### :computer: Linguaggi e Tecnologie utilizzate:
 
