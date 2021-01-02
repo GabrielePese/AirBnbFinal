@@ -29,17 +29,14 @@ Il database del progetto:
 
 ![](public/img/db.png)
 
+---
+
 
 
 ### :arrow_forward: Anteprima Pagine Web:
 >  Preview Desktop :desktop_computer: 
 
 ![](public/img/airBnbGif.gif)
-
-### :arrow_forward: Anteprima Pagine Mobile:
->  Preview Mobile :iphone: 
-
-![](public/images/recordMobile.gif)
 
 ---
 
