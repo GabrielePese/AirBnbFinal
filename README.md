@@ -41,6 +41,8 @@ Il database del progetto:
 
 ![](public/images/mobilegif.gif)
 
+---
+
 ### :computer: Linguaggi e Tecnologie utilizzate:
 
 
