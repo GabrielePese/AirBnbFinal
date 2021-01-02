@@ -1,4 +1,4 @@
-<!-- #   AIRBNBFINAL
+#   AIRBNBFINAL
 
 
 
@@ -39,7 +39,7 @@ Il database del progetto:
 ### :arrow_forward: Anteprima Pagine Mobile:
 >  Preview Mobile :iphone: 
 
-![](public/images/mobilegif.gif)
+![](public/images/recordMobile.gif)
 
 ---
 
@@ -87,8 +87,4 @@ Il database del progetto:
 * Laravel
 
 
-* Carbon -->
-
-
-
-![](public/images/mobile.gif)
+* Carbon
